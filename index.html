@@ -5,6 +5,7 @@
     <title>Edgardo David</title>
     <link rel="icon" href="../images/boomket.PNG">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles-index.css">
   </head>
@@ -18,9 +19,9 @@
     </nav>
     <section id="home">
       <div class="home-cover">
-        <h1>< Hellow World /></h1>
-        <h2>I´m Edardo David</h2>
-        <h3>Full Stack Web Developer</h3>
+        <h1 data-aos="fade-zoom-in" data-aos-duration='2000'>< Hellow World /></h1>
+        <h2 data-aos="fade-up" data-aos-duration='2500'>I´m Edardo David</h2>
+        <h3  data-aos="fade-up" data-aos-duration='2500'>Full Stack Web Developer</h3>
       </div>
 
     </section>
@@ -39,28 +40,28 @@
           <h2>Skills</h2>
           <div class="skills">
             <div class="skill">
-              <img src="./images/rails.png">
+              <img src="./images/rails.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/html5.png">
+              <img src="./images/html5.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/jquery.jpg">
+              <img src="./images/jquery.jpg" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/javascript.png">
+              <img src="./images/javascript.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/heroku.svg">
+              <img src="./images/heroku.svg" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/bootstrap.png">
+              <img src="./images/bootstrap.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/css.png">
+              <img src="./images/css.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
             <div class="skill">
-              <img src="./images/git.jpg">
+              <img src="./images/git.jpg" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
 
           </div>
@@ -81,21 +82,37 @@
       <section id="portafolio">
         <h1>Portafolio</h1>
         <div class="proyects">
-          <a href="https://floating-everglades-40234.herokuapp.com/">
-            <img src="./images/boomket.PNG">
-          </a>
-          <a href="https://thawing-brushlands-70283.herokuapp.com/posts">
-            <img src="./images/blog.PNG">
-          </a>
-          <a href="https://edgardoburgos94.github.io/Bootstrap-E-commerce/">
-            <img src="./images/e-commerce.PNG">
-          </a>
-          <a href="https://edgardoburgos94.github.io/ByP/index.html">
-            <img src="./images/byp.PNG">
-          </a>
-          <a href="https://edgardoburgos94.github.io/Proyecto-Jquery/">
-            <img src="./images/picas.PNG">
-          </a>
+          <div class="proyect">
+              <img src="./images/boomket.PNG">
+            <div class="proyect-hover">
+              <a href="https://floating-everglades-40234.herokuapp.com/"><button class="proyects">Visitar página</button></a>
+            </div>
+          </div>
+          <div class="proyect">
+              <img src="./images/blog.PNG">
+            </a>
+            <div class="proyect-hover">
+              <a href="https://thawing-brushlands-70283.herokuapp.com/posts"><button class="proyects">Visitar página</button></a>
+            </div>
+          </div>
+          <div class="proyect">
+              <img src="./images/e-commerce.PNG">
+            <div class="proyect-hover">
+              <a href="https://edgardoburgos94.github.io/Bootstrap-E-commerce/"><button class="proyects">Visitar página</button></a>
+            </div>
+          </div>
+          <div class="proyect">
+              <img src="./images/byp.PNG">
+            <div class="proyect-hover">
+              <a href="https://edgardoburgos94.github.io/ByP/index.html"><button class="proyects">Visitar página</button></a>
+            </div>
+          </div>
+          <div class="proyect">
+              <img src="./images/picas.PNG">
+            <div class="proyect-hover" >
+              <a href="https://edgardoburgos94.github.io/Proyecto-Jquery/"><button class="proyects">Visitar página</button></a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -113,6 +130,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="app/app.js"></script>
   </body>
 </html>
