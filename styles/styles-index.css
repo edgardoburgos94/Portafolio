@@ -73,6 +73,40 @@ footer {
   border-radius: 50%
 }
 
+.about-me-skills {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid green;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  width: 90%;
+  margin: auto;
+  border: 1px solid
+}
+
+.skill {
+  width:200px;
+  height: 250px;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.skill img {
+  width: 100%;
+}
+
 #experience {
   padding-top: 70px;
 }
