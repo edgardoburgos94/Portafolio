@@ -35,9 +35,24 @@ $(document).ready(function(){
   $('.proyect').on( 'mouseleave', function(){
     console.log("Salió del proyecto");
     $(this).children().removeClass( "show" );
-
   });
 
+  var skillHigh = $('.skill').width();
+  $('.skill').css("height", skillHigh);
+
+  var high = $( window ).height();
+  console.log(high);
+  $('.high').css("min-height", high);
+
+  $(window).resize(function() {
+    var high = $( window ).height();
+    if(high < 900) {
+    console.log(high);
+    $('.high').css("min-height", high);
+    }
+    var skillHigh = $('.skill').width();
+    $('.skill').css("height", skillHigh);
+  });
 
 
 });

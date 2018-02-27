@@ -11,33 +11,55 @@
   </head>
   <body>
     <nav>
-      <a class = "scrollLink0" href="#about-me">Home</a>
-      <a class = "scrollLink1" href="#about-me">About me</a>
-      <a class = "scrollLink2" href="#experience">Experience</a>
-      <a class = "scrollLink3" href="#portafolio">Portafolio</a>
-      <a class = "scrollLink4" href="#contact">Contact</a>
+      <a class = "scrollLink0 arial-bold" href="#about-me">Home</a>
+      <a class = "scrollLink1 arial-bold" href="#about-me">About me</a>
+      <a class = "scrollLink2 arial-bold" href="#experience">Experience</a>
+      <a class = "scrollLink3 arial-bold" href="#portafolio">Portafolio</a>
+      <a class = "scrollLink4 arial-bold" href="#contact">Contact</a>
     </nav>
-    <section id="home">
-      <div class="home-cover">
-        <h1 data-aos="fade-zoom-in" data-aos-duration='2000'>< Hellow World /></h1>
-        <h2 data-aos="fade-up" data-aos-duration='2500'>I´m Edardo David</h2>
-        <h3  data-aos="fade-up" data-aos-duration='2500'>Full Stack Web Developer</h3>
+    <section class="high" id="home">
+      <div class="home-cover high">
+        <h1 class = "allerta-bold" data-aos="fade-zoom-in" data-aos-duration='2000'>< Hello World /></h1>
+        <h2 class = "allerta" data-aos="fade-up" data-aos-duration='2500'>I´m Edardo David</h2>
+        <h3 class = "allerta"  data-aos="fade-up" data-aos-duration='2500'>Full Stack Web Developer</h3>
       </div>
 
     </section>
     <div class="container">
-      <section id="about-me">
-        <h1>About me</h1>
-        <div class="about-me-info">
-          <p>I´m a full stack developer passionated for creating and learning. Innovative, enthusiastic and lover of challenges that dare me mentally and inspire me to expand my field of knowledge and application. I like topics such as artificial intelligence, computer vision, renewable energies and how technology can be used for the benefit of all. </p>
-          <p>I am interested on participating and developing projects that have the potential to positively impact many people and contribute to make the world a better place to live, better connected, more friendly with the environment and with a better quality of life.</p>
-          <a href=""><button>Download CV</button></a>
+      <section class="high" id="about-me">
+        <div class="about-me-all">
+        <h1 class = "arial-bold">About me</h1>
+        <div class="about-me-contain">
+          <div class="about-me-info arial text">
+            <p class = "p-data"><span class="arial-bold">Name:</span> Edgardo David Burgos</p>
+            <p class = "p-data"><span class="arial-bold">Age:</span> 23</p>
+            <p class = "p-data"><span class="arial-bold">Phone:</span> +57 304 671 3079</p>
+            <p class = "p-data"><span class="arial-bold">Mail:</span> edgardo.burgos94@gmail.com</p>
+            <p class = "p-data"><span class="arial-bold">Adress:</span> Medellín, Colombia</p>
+            <p class = "p-justify">I´m a full stack developer passionated for creating and learning. Innovative, enthusiastic and lover of challenges that dare me mentally and inspire me to expand my field of knowledge and application. I like topics such as artificial intelligence, computer vision, renewable energies and how technology can be used for the benefit of all. </p>
+            <p class = "p-justify">I am interested on participating and developing projects that have the potential to positively impact many people and contribute to make the world a better place to live, better connected, more friendly with the environment and with a better quality of life.</p>
+          </div>
+          <div class="about-me-images">
+            <img src="./images/about1.jpg">
+            <a href=""><button>Download CV</button></a>
+          </div>
         </div>
-        <div class="about-me-images">
-          <img src="./images/about1.jpg">
+      </section>
+      <section class="high" id="experience">
+        <h1 class = "arial-bold">Experience</h1>
+        <div class="experiences">
+          <div class="experience">
+            <h3 class = "aria-cursive">Boomket SAS</h3>
+            <p class = "p-justify">I was in charge of the development of an e-commerce where manufacturers, wholesalers, retailers and final costumers meet to do business.</p>
+            <p class = "p-justify">Some functionalities: Register suppliers and costumers, create, update and delete categories, subcategories and products,configure discounts and promotions, create shopping cart, integrate payment gateway of PayPal and PayU, integrate via API the accounting platform Alegra, deploy in Heroku, save images in Amazon S3</p>
+          </div>
+          <div class="experience">
+            <h3 class = "aria-cursive">Make It Real Champ</h3>
+            <p class = "p-justify">For nine weeks I was learning development of WEB applications based on Ruby On Rails framework and working with different technologies like HTML5, CSS3, Javascript, Postgres, GitHub, real time, responsive design, testing techniques, deploy with Heroku and Amazon WEB services.</p>
+          </div>
         </div>
         <div class="about-me-skills">
-          <h2>Skills</h2>
+          <h3 class = "aria-cursive">Technologies used</h3>
           <div class="skills">
             <div class="skill">
               <img src="./images/rails.png" data-aos="fade-zoom-in" data-aos-duration='1000'>
@@ -63,26 +85,11 @@
             <div class="skill">
               <img src="./images/git.jpg" data-aos="fade-zoom-in" data-aos-duration='1000'>
             </div>
-
           </div>
         </div>
       </section>
-      <section id="experience">
-        <h1>Experience</h1>
-        <div class="experiences">          
-          <div class="experience">
-            <h3>Boomket SAS</h3>
-            <p>I was in charge of the development of an e-commerce where manufacturers, wholesalers, retailers and final costumers meet to do business.</p>
-            <p>Some functionalities: Register suppliers and costumers, create, update and delete categories, subcategories and products,configure discounts and promotions, create shopping cart, integrate payment gateway of PayPal and PayU, integrate via API the accounting platform Alegra, deploy in Heroku, save images in Amazon S3</p>
-          </div>
-          <div class="experience">
-            <h3>Make It Real Champ</h3>
-            <p>For nine weeks I was learning development of WEB applications based on Ruby On Rails framework and working with different technologies like HTML5, CSS3, Javascript, Postgres, GitHub, real time, responsive design, testing techniques, deploy with Heroku and Amazon WEB services.</p>
-          </div>
-        </div>
-      </section>
-      <section id="portafolio">
-        <h1>Portafolio</h1>
+      <section class="high" id="portafolio">
+        <h1 class = "arial-bold">Portafolio</h1>
         <div class="proyects">
           <div class="proyect">
               <img src="./images/boomket.PNG">
@@ -120,7 +127,7 @@
     </div>
     <footer>
       <section class="container" id="contact">
-        <h1>Contact me</h1>
+        <h1 class = "arial-bold">Contact me</h1>
         <a href="https://github.com/edgardoburgos94">Github</a>
         <a href="https://www.linkedin.com/feed/">Linkedin</a>
         <p>304 671 3079</p>
