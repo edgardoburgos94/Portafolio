@@ -26,7 +26,7 @@
 
 body {
   height: 100%;
-  background-color: rgb(240,240,240);
+  background-color: rgb(250,250,250);
   font-family: 'arial';
 }
 
@@ -92,6 +92,12 @@ footer {
 
   color: white;
 }
+
+.section-title {
+  width: 100%;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
 #about-me {
   padding-top: 70px;
   margin-left: 4%;
@@ -113,7 +119,7 @@ footer {
 }
 
 .p-data {
-  width: 60%;
+  width: 75%;
   border-bottom: 1.5px solid rgb(50,50,200);
 }
 
