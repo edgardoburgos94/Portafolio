@@ -1,5 +1,10 @@
 body {
   height: 100%;
+  background-color: rgb(240,240,240);
+}
+
+.container {
+  background-color: white;
 }
 nav {
   width: 100%;
@@ -10,6 +15,7 @@ nav {
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid rgb(50,50,200);
+  z-index: 3;
 }
 nav a {
   padding-left: 23px;
@@ -27,7 +33,7 @@ nav a:hover {
 }
 footer {
   background-color: grey;
-  height: 180px;
+  height: 200px;
 }
 
 #home {
@@ -111,12 +117,20 @@ footer {
   padding-top: 70px;
 }
 
+.experiences {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
 .experience {
+  margin: 30px;
   width: 40%;
 }
 
 #portafolio {
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 
 .proyects {
@@ -172,5 +186,6 @@ a:hover {
 }
 
 #contact {
-  margin-top: 70px;
+  padding-top: 30px;
+  background-color: grey;
 }
